@@ -20,7 +20,7 @@ TODO
 
 - [ ] Create minimal script for detecting `conami code`
 - [ ] Create/find pure HTML+CSS ester egg (nyan cat?!)
-- [ ] Find way to append code without collitions
+- [ ] Find a way to append code without collisions
 - [ ] Host somewhere easter egg code (probably github)
 - [ ] Add snippet in different places of zwzt platform
 
