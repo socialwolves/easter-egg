@@ -416,57 +416,19 @@ body {
 #head {
   width: 80px;
   height: 30px;
-  border: solid black;
-  border-width: 0 6px;
-  background: #999;
-  position: absolute;
-}
-/* #head:before = left ear | #head:after = right ear */
-#head:before,
-#head:after {
-  width: 40px;
-  height: 30px;
-  top: -30px;
-  background: linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(#999999, #999999) no-repeat, linear-gradient(#999999, #999999) no-repeat, linear-gradient(#999999, #999999) no-repeat, linear-gradient(#999999, #999999) no-repeat;
-  background-size: 6px 24px, 12px 6px, 12px 6px, 6px 6px, 6px 6px, 12px 30px, 12px 12px, 12px 6px, 6px 6px;
-  background-position: 0 6px, 6px 0, 30px 18px, 18px 6px, 24px 12px, 6px 6px, 18px 18px, 30px 24px, 18px 12px;
-}
-#head:after {
-  right: 0;
-  transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
+    position: absolute;
 }
 #face {
   width: 80px;
   height: 100%;
   position: absolute;
-  top: 6px;
-  box-shadow: 24px 24px 0 #f00,30px 24px 0 #f00,42px 24px 0 #f00,48px 24px 0 #f00,54px 24px 0 #f00,30px 30px 0 #f00,42px 30px 0 #f00,54px 30px 0 #f00,30px 36px 0 #f00,42px 36px 0 #f00,54px 36px 0 #f00,30px 42px 0 #f00,36px 42px 0 #f00,42px 42px 0 #f00,54px 42px 0 #f00,30px 48px 0 #f00,36px 48px 0 #f00,42px 48px 0 #f00,48px 48px 0 #f00,54px 48px 0 #f00;
-
-/*.pixelart-to-css {*/
-  box-shadow:  144px 36px 0 #cddc39, 180px 36px 0 #cddc39, 432px 36px 0 #cddc39, 468px 36px 0 #cddc39, 108px 72px 0 #cddc39, 144px 72px 0 #cddc39, 180px 72px 0 #cddc39, 216px 72px 0 #cddc39, 396px 72px 0 #cddc39, 432px 72px 0 #cddc39, 468px 72px 0 #cddc39, 504px 72px 0 #cddc39, 108px 108px 0 #cddc39, 144px 108px 0 #cddc39, 180px 108px 0 #cddc39, 216px 108px 0 #cddc39, 252px 108px 0 #cddc39, 288px 108px 0 #cddc39, 324px 108px 0 #cddc39, 360px 108px 0 #cddc39, 396px 108px 0 #cddc39, 432px 108px 0 #cddc39, 468px 108px 0 #cddc39, 504px 108px 0 #cddc39, 108px 144px 0 #cddc39, 144px 144px 0 #cddc39, 180px 144px 0 #cddc39, 216px 144px 0 #cddc39, 252px 144px 0 #cddc39, 288px 144px 0 #cddc39, 324px 144px 0 #cddc39, 360px 144px 0 #cddc39, 396px 144px 0 #cddc39, 432px 144px 0 #cddc39, 468px 144px 0 #cddc39, 504px 144px 0 #cddc39, 108px 180px 0 #cddc39, 144px 180px 0 #cddc39, 180px 180px 0 #cddc39, 216px 180px 0 #cddc39, 252px 180px 0 #cddc39, 288px 180px 0 #cddc39, 324px 180px 0 #cddc39, 360px 180px 0 #cddc39, 396px 180px 0 #cddc39, 432px 180px 0 #cddc39, 468px 180px 0 #cddc39, 504px 180px 0 #cddc39, 108px 216px 0 #cddc39, 144px 216px 0 #cddc39, 180px 216px 0 #cddc39, 216px 216px 0 #cddc39, 252px 216px 0 #cddc39, 288px 216px 0 #cddc39, 324px 216px 0 #cddc39, 360px 216px 0 #cddc39, 396px 216px 0 #cddc39, 432px 216px 0 #cddc39, 468px 216px 0 #cddc39, 504px 216px 0 #8bc34a, 144px 252px 0 #cddc39, 180px 252px 0 #cddc39, 216px 252px 0 #cddc39, 252px 252px 0 #cddc39, 288px 252px 0 #cddc39, 324px 252px 0 #cddc39, 360px 252px 0 #8bc34a, 396px 252px 0 #cddc39, 432px 252px 0 #cddc39, 468px 252px 0 #cddc39, 144px 288px 0 #cddc39, 180px 288px 0 #cddc39, 216px 288px 0 #cddc39, 252px 288px 0 #cddc39, 288px 288px 0 #8bc34a, 324px 288px 0 #cddc39, 360px 288px 0 #cddc39, 396px 288px 0 #cddc39, 468px 288px 0 #cddc39, 180px 324px 0 #cddc39, 216px 324px 0 #cddc39, 252px 324px 0 #8bc34a, 288px 324px 0 #cddc39, 324px 324px 0 #cddc39, 360px 324px 0 #cddc39, 396px 324px 0 #cddc39, 504px 324px 0 #8bc34a, 216px 360px 0 #cddc39, 252px 360px 0 #8bc34a, 288px 360px 0 #cddc39, 324px 360px 0 #cddc39, 360px 360px 0 #cddc39, 396px 360px 0 #cddc39, 432px 360px 0 #cddc39, 252px 396px 0 #8bc34a, 288px 396px 0 #cddc39, 324px 396px 0 #cddc39, 360px 396px 0 #cddc39, 396px 396px 0 #cddc39, 468px 396px 0 #8bc34a, 288px 432px 0 #cddc39, 324px 432px 0 #cddc39;
-  height: 36px;
-  width: 36px;
-/*}*/
-
-/*.pixelart-to-css {*/
-  box-shadow:  24px 6px 0 #cddc39, 30px 6px 0 #cddc39, 72px 6px 0 #cddc39, 78px 6px 0 #cddc39, 18px 12px 0 #cddc39, 24px 12px 0 #cddc39, 30px 12px 0 #cddc39, 36px 12px 0 #cddc39, 66px 12px 0 #cddc39, 72px 12px 0 #cddc39, 78px 12px 0 #cddc39, 84px 12px 0 #cddc39, 18px 18px 0 #cddc39, 24px 18px 0 #cddc39, 30px 18px 0 #cddc39, 36px 18px 0 #cddc39, 42px 18px 0 #cddc39, 48px 18px 0 #cddc39, 54px 18px 0 #cddc39, 60px 18px 0 #cddc39, 66px 18px 0 #cddc39, 72px 18px 0 #cddc39, 78px 18px 0 #cddc39, 84px 18px 0 #cddc39, 18px 24px 0 #cddc39, 24px 24px 0 #cddc39, 30px 24px 0 #cddc39, 36px 24px 0 #cddc39, 42px 24px 0 #cddc39, 48px 24px 0 #cddc39, 54px 24px 0 #cddc39, 60px 24px 0 #cddc39, 66px 24px 0 #cddc39, 72px 24px 0 #cddc39, 78px 24px 0 #cddc39, 84px 24px 0 #cddc39, 18px 30px 0 #cddc39, 24px 30px 0 #cddc39, 30px 30px 0 #cddc39, 36px 30px 0 #cddc39, 42px 30px 0 #cddc39, 48px 30px 0 #cddc39, 54px 30px 0 #cddc39, 60px 30px 0 #cddc39, 66px 30px 0 #cddc39, 72px 30px 0 #cddc39, 78px 30px 0 #cddc39, 84px 30px 0 #cddc39, 18px 36px 0 #cddc39, 24px 36px 0 #cddc39, 30px 36px 0 #cddc39, 36px 36px 0 #cddc39, 42px 36px 0 #cddc39, 48px 36px 0 #cddc39, 54px 36px 0 #cddc39, 60px 36px 0 #cddc39, 66px 36px 0 #cddc39, 72px 36px 0 #cddc39, 78px 36px 0 #cddc39, 84px 36px 0 #8bc34a, 24px 42px 0 #cddc39, 30px 42px 0 #cddc39, 36px 42px 0 #cddc39, 42px 42px 0 #cddc39, 48px 42px 0 #cddc39, 54px 42px 0 #cddc39, 60px 42px 0 #8bc34a, 66px 42px 0 #cddc39, 72px 42px 0 #cddc39, 78px 42px 0 #cddc39, 24px 48px 0 #cddc39, 30px 48px 0 #cddc39, 36px 48px 0 #cddc39, 42px 48px 0 #cddc39, 48px 48px 0 #8bc34a, 54px 48px 0 #cddc39, 60px 48px 0 #cddc39, 66px 48px 0 #cddc39, 78px 48px 0 #cddc39, 30px 54px 0 #cddc39, 36px 54px 0 #cddc39, 42px 54px 0 #8bc34a, 48px 54px 0 #cddc39, 54px 54px 0 #cddc39, 60px 54px 0 #cddc39, 66px 54px 0 #cddc39, 84px 54px 0 #8bc34a, 36px 60px 0 #cddc39, 42px 60px 0 #8bc34a, 48px 60px 0 #cddc39, 54px 60px 0 #cddc39, 60px 60px 0 #cddc39, 66px 60px 0 #cddc39, 72px 60px 0 #cddc39, 42px 66px 0 #8bc34a, 48px 66px 0 #cddc39, 54px 66px 0 #cddc39, 60px 66px 0 #cddc39, 66px 66px 0 #cddc39, 78px 66px 0 #8bc34a, 48px 72px 0 #cddc39, 54px 72px 0 #cddc39;
+  top: -74px;
+  left: -19px;
+  box-shadow:  24px 6px 0 #00bcd4, 78px 6px 0 #000000, 18px 12px 0 #00bcd4, 24px 12px 0 #00bcd4, 30px 12px 0 #00bcd4, 72px 12px 0 #000000, 78px 12px 0 #000000, 84px 12px 0 #000000, 18px 18px 0 #00bcd4, 24px 18px 0 #00bcd4, 30px 18px 0 #00bcd4, 36px 18px 0 #00bcd4, 48px 18px 0 #00bcd4, 54px 18px 0 #000000, 66px 18px 0 #000000, 72px 18px 0 #000000, 78px 18px 0 #000000, 84px 18px 0 #000000, 18px 24px 0 #00bcd4, 24px 24px 0 #00bcd4, 30px 24px 0 #00bcd4, 36px 24px 0 #00bcd4, 42px 24px 0 #00bcd4, 48px 24px 0 #00bcd4, 54px 24px 0 #000000, 60px 24px 0 #000000, 66px 24px 0 #000000, 72px 24px 0 #000000, 78px 24px 0 #000000, 84px 24px 0 #000000, 18px 30px 0 #00bcd4, 24px 30px 0 #00bcd4, 30px 30px 0 #ffffff, 36px 30px 0 #ffffff, 42px 30px 0 #00bcd4, 48px 30px 0 #00bcd4, 54px 30px 0 #000000, 60px 30px 0 #000000, 66px 30px 0 #ffffff, 72px 30px 0 #ffffff, 78px 30px 0 #000000, 84px 30px 0 #000000, 12px 36px 0 #00bcd4, 18px 36px 0 #ffffff, 24px 36px 0 #ffffff, 30px 36px 0 #9e9e9e, 36px 36px 0 #000000, 42px 36px 0 #ffffff, 48px 36px 0 #00bcd4, 54px 36px 0 #000000, 60px 36px 0 #ffffff, 66px 36px 0 #9e9e9e, 72px 36px 0 #000000, 78px 36px 0 #ffffff, 84px 36px 0 #ffffff, 90px 36px 0 #000000, 12px 42px 0 #00bcd4, 18px 42px 0 #00bcd4, 24px 42px 0 #ffffff, 30px 42px 0 #000000, 36px 42px 0 #000000, 42px 42px 0 #ffffff, 48px 42px 0 #00bcd4, 54px 42px 0 #000000, 60px 42px 0 #ffffff, 66px 42px 0 #000000, 72px 42px 0 #000000, 78px 42px 0 #ffffff, 84px 42px 0 #000000, 90px 42px 0 #000000, 18px 48px 0 #00bcd4, 24px 48px 0 #00bcd4, 30px 48px 0 #ffffff, 36px 48px 0 #ffffff, 42px 48px 0 #ffffff, 48px 48px 0 #00bcd4, 54px 48px 0 #000000, 60px 48px 0 #ffffff, 66px 48px 0 #ffffff, 72px 48px 0 #ffffff, 78px 48px 0 #000000, 84px 48px 0 #000000, 24px 54px 0 #00bcd4, 30px 54px 0 #00bcd4, 36px 54px 0 #ffffff, 42px 54px 0 #ffffff, 48px 54px 0 #00bcd4, 54px 54px 0 #000000, 60px 54px 0 #ffffff, 66px 54px 0 #ffffff, 72px 54px 0 #000000, 78px 54px 0 #000000, 18px 60px 0 #00bcd4, 24px 60px 0 #00bcd4, 30px 60px 0 #00bcd4, 36px 60px 0 #00bcd4, 42px 60px 0 #ffffff, 48px 60px 0 #00bcd4, 54px 60px 0 #000000, 60px 60px 0 #ffffff, 66px 60px 0 #000000, 72px 60px 0 #000000, 78px 60px 0 #000000, 84px 60px 0 #000000, 18px 66px 0 #00bcd4, 24px 66px 0 #00bcd4, 30px 66px 0 #00bcd4, 36px 66px 0 #00bcd4, 42px 66px 0 #ffffff, 48px 66px 0 #00bcd4, 54px 66px 0 #000000, 60px 66px 0 #ffffff, 66px 66px 0 #000000, 72px 66px 0 #000000, 78px 66px 0 #000000, 84px 66px 0 #000000, 24px 72px 0 #00bcd4, 30px 72px 0 #00bcd4, 36px 72px 0 #00bcd4, 42px 72px 0 #ffffff, 48px 72px 0 #ffffff, 54px 72px 0 #ffffff, 60px 72px 0 #ffffff, 66px 72px 0 #000000, 72px 72px 0 #000000, 78px 72px 0 #000000, 24px 78px 0 #00bcd4, 30px 78px 0 #00bcd4, 36px 78px 0 #ffffff, 42px 78px 0 #ffffff, 48px 78px 0 #000000, 54px 78px 0 #000000, 60px 78px 0 #ffffff, 66px 78px 0 #ffffff, 72px 78px 0 #000000, 78px 78px 0 #000000, 30px 84px 0 #00bcd4, 36px 84px 0 #00bcd4, 42px 84px 0 #ffffff, 48px 84px 0 #000000, 54px 84px 0 #000000, 60px 84px 0 #ffffff, 66px 84px 0 #000000, 72px 84px 0 #000000, 36px 90px 0 #00bcd4, 42px 90px 0 #00bcd4, 48px 90px 0 #ffffff, 54px 90px 0 #ffffff, 60px 90px 0 #000000, 66px 90px 0 #000000, 42px 96px 0 #00bcd4, 48px 96px 0 #00bcd4, 54px 96px 0 #000000, 60px 96px 0 #000000;
   height: 6px;
   width: 6px;
-/*}*/
-  background: linear-gradient(white, white) no-repeat, linear-gradient(white, white) no-repeat, linear-gradient(#ff9999, #ff9999) no-repeat, linear-gradient(#ff9999, #ff9999) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat;
-  background-size: 6px 6px, 6px 6px, 12px 12px, 12px 12px, 12px 12px, 12px 12px, 6px 6px, 6px 6px, 6px 6px, 6px 6px;
-  background-position: 17px 0, 56px 0, 5px 12px, 68px 12px, 17px 0, 56px 0, 42px 6px, 23px 18px, 40px 18px, 56px 18px;
 }
-/* #face:before = chin */
-#face:before {
-  bottom: -12px;
-  width: 100%;
-  height: 18px;
-  background: linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(#999999, #999999) no-repeat, linear-gradient(#999999, #999999) no-repeat;
-  background-size: 6px 6px, 6px 6px, 6px 6px, 6px 6px, 56px 6px, 39px 6px, 68px 6px, 56px 6px;
-  background-position: 0 0, 6px 6px, 74px 0, 68px 6px, 12px 12px, 23px 0, 6px 0, 12px 6px;
-}
+
 /* FRAME 1 AND 5 */
 .frame1 #head,
 .frame5 #head {
